@@ -36,7 +36,7 @@ mybatis 插件配置添加
 				<bean class="com.hogdeer.zipkin.mybaits.MybaitsZipkinInterceptor">
 					<property name="brave" ref="brave"/>
 				</bean>
-        ........
+
 			</array>
 		</property>
   	</bean>
