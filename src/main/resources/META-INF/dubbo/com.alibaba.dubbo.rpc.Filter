@@ -1,0 +1,2 @@
+traceFilterc=com.hogdeer.zipkin.filter.dubbo.DrpcClientInterceptor
+traceFilters=com.hogdeer.zipkin.filter.dubbo.DrpcServerInterceptor
