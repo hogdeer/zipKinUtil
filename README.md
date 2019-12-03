@@ -39,7 +39,7 @@ mybatis 插件配置添加
         ........
 			</array>
 		</property>
-  
+  	</bean>
   
   
   
