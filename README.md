@@ -25,20 +25,7 @@ mybatis 插件配置添加
 </bean>
 
 
-例如 :
-	<bean id="mybatisSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-		<property name="dataSource" ref="dataSource" />
-		<property name="configLocation" value="classpath:/config/sqlMapConfig.xml" />
-		<!-- 自动扫描entity目录, 省掉Configuration.xml里的手工配置 -->
-		<property name="typeAliasesPackage" value="com.cargopm.membership.dao.entity;com.cargopm.membership.dto" />
-		<property name="plugins">
-			<array>
-				<bean class="com.hogdeer.zipkin.mybaits.MybaitsZipkinInterceptor">
-					<property name="brave" ref="brave"/>
-				</bean>
-			</array>
-		</property>
-  	</bean>
+
   
   rest  spring配置文件添加配置
   
