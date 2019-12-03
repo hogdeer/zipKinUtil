@@ -21,11 +21,11 @@ ds spring配置文件添加配置
 mybatis 插件配置添加
 
 <bean class="com.hogdeer.zipkin.mybaits.MybaitsZipkinInterceptor">
-					<property name="brave" ref="brave"/>
-				</bean>
+	<property name="brave" ref="brave"/>
+</bean>
 
 
-例如 
+例如 :
 	<bean id="mybatisSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<property name="configLocation" value="classpath:/config/sqlMapConfig.xml" />
